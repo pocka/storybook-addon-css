@@ -1,0 +1,12 @@
+# Common
+*.log
+.tmp-*
+.tmp
+
+# JavaScript, Node.js
+node_modules
+yarn.lock
+package-lock.json
+
+# Storybook
+storybook-static

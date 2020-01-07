@@ -1,0 +1,23 @@
+{
+  "name": "storybook-addon-storystyle",
+  "version": "0.1.0",
+  "main": "./dist/index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 9001",
+    "build": "build-storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@storybook/addons": "^5.2.8",
+    "@storybook/core-events": "^5.2.8",
+    "@storybook/react": "^5.2.8",
+    "babel-loader": "^8.0.6",
+    "prettier": "^1.19.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  }
+}
