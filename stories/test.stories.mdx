@@ -1,0 +1,14 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks'
+import { Button } from './Button.jsx'
+
+<Meta title="MDX|Test" component={Button} />
+
+# Foo bar
+
+aaaaaaaaaaaaaaa
+
+<Preview>
+  <Story name="test1" parameters={{ styles: [require('./foo.css?story')]}}>
+    <Button>Henlo, World!</Button>
+  </Story>
+</Preview>

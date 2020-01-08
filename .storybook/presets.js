@@ -1,3 +1,6 @@
 const path = require('path')
 
-module.exports = [path.resolve(__dirname, '../src/preset.js')]
+module.exports = [
+  '@storybook/addon-docs/react/preset',
+  path.resolve(__dirname, '../src/preset.js')
+]

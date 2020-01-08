@@ -4,4 +4,4 @@ import withStyles from '../src'
 
 addDecorator(withStyles)
 
-configure(require.context('../stories', true, /\.stories.jsx?$/), module)
+configure(require.context('../stories', true, /\.stories.(jsx?|mdx)$/), module)

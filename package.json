@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
+    "@storybook/addon-docs": "^5.2.8",
     "@storybook/addons": "^5.2.8",
     "@storybook/core-events": "^5.2.8",
     "@storybook/react": "^5.2.8",

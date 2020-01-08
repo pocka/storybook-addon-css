@@ -1,16 +1,13 @@
 import React from 'react'
 
 export default {
-  title: 'Test'
-}
-
-export const foo = () => <div>Foo</div>
-
-foo.story = {
+  title: 'Test',
   parameters: {
     styles: [import('./foo.css?story')]
   }
 }
+
+export const foo = () => <div>Foo</div>
 
 export const bar = () => <div>Bar</div>
 
@@ -19,3 +16,5 @@ bar.story = {
     styles: [import('./bar.css?story')]
   }
 }
+
+export const baz = () => <div>Baz</div>
